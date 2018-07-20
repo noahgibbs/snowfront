@@ -24,6 +24,22 @@ module.exports = {
             commonjs2: 'lodash',
             amd: 'lodash',
             root: '_'
+        },
+        marked: {
+            commonjs: 'marked',
+            commonjs2: 'marked',
+            amd: 'marked'
+        },
+        "lz-string": {
+            commonjs: 'lz-string',
+            commonjs2: 'lz-string',
+            amd: 'lz-string'
+        },
+        jquery: {
+            commonjs: 'jquery',
+            commonjs2: 'jquery',
+            amd: 'jquery',
+            root: '$'
         }
     }
 };

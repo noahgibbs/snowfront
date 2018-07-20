@@ -1,6 +1,6 @@
 {
   "name": "SnowFront",
-  "version": "2.0.0",
+  "version": "0.1.0",
   "description": "An HTML and CSS markdown-based game state front end, based on Twine's 'Snowman' story format.",
   "author": "Noah Gibbs",
   "license": "MIT",

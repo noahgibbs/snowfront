@@ -1,5 +1,11 @@
+'use strict';
 import _ from 'lodash';
+import $ from 'jquery';
 
-export function testFunc() {
-    return "";
-}
+var story = require('./story');
+var passage = require('./passage');
+
+$(function() {
+        window.story = new Story($('tw-storydata'));
+        window.story.start($('#main'));
+    });
