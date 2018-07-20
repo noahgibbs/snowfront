@@ -1,0 +1,22 @@
+{
+  "name": "SnowFront",
+  "version": "2.0.0",
+  "description": "An HTML and CSS markdown-based game state front end, based on Twine's 'Snowman' story format.",
+  "author": "Noah Gibbs",
+  "license": "MIT",
+  "repository": "https://github.com/noahgibbs/snowfront",
+  "scripts": {
+    "build": "node scripts/build-format.js",
+    "lint": "eslint 'src/**/*.js' || exit 0",
+    "start": "onchange -iw 'src/**' 'guide/**' -- npm run build",
+    "test": "karma start || exit 0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "lz-string": "^1.4.4",
+    "marked": "^0.4.0"
+  },
+  "devDependencies": {
+  }
+}
