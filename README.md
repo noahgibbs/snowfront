@@ -18,4 +18,14 @@ After cloning the repository, run "npm install" to get the dependencies.
 To create the prod distribution, run "npm run build". The generated
 script can be used from the browser to make your game.
 
+## Development
 
+## License
+
+This code is released under the terms of the MIT license. See LICENSE
+for details.
+
+## TODO
+
+Additional packaging: https://webpack.js.org/guides/production/
+NPM package?: https://webpack.js.org/guides/author-libraries/
