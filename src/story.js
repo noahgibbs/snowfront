@@ -7,9 +7,9 @@
 **/
 
 'use strict';
-var $ = require('jquery');
-var _ = require('lodash');
-var LZString = require('lz-string');
+import $ from 'jquery';
+import _ from 'lodash';
+import LZString from 'lz-string';
 var Passage = require('./passage');
 
 var Story = function(dataEl) {

@@ -6,9 +6,9 @@
 **/
 
 'use strict';
-var _ = require('lodash');
-var marked = require('marked');
-var jQuery = require('jquery');
+import _ from 'lodash';
+import marked from 'marked';
+import jQuery from 'jquery';
 
 /**
  Our rendering engine. This is available externally as Passage.render(),

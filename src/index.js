@@ -2,10 +2,6 @@
 import _ from 'lodash';
 import $ from 'jquery';
 
-var story = require('./story');
-var passage = require('./passage');
+import story from './story';
+import passage from './passage';
 
-$(function() {
-        window.story = new Story($('tw-storydata'));
-        window.story.start($('#main'));
-    });
